@@ -41,15 +41,16 @@ hr {
 }
 ul {
   list-style-type: none;
-}
-ul.img-list {
   margin: 0;
   padding: 0;
 }
-ul.img-list li {
+ul li {
   display: inline-block;
   position: relative;
-  padding-bottom:16px;
+}
+ul.img-list li {
+  margin:4px;
+  float:left;
 }
 span.text-content span {
   display: table-cell;
@@ -68,7 +69,7 @@ span.text-content {
   position: absolute;
   top: 0;
   width: 100%;
-  height:350px;
+  height:342px;
   opacity: 0;
   text-align:center;
   -webkit-transition: opacity 500ms;
