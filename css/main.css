@@ -23,11 +23,10 @@ img.head {
   padding:24px;
 }
 a {
-    color:#222;
-}
-p {
+  color:#E62427;
 }
 hr {
+  width:150px;
   background-color:#ddd;
   height:1px;
   border:0px;
@@ -39,18 +38,16 @@ hr {
   width: 700px;
   margin: 0 auto;
 }
-ul {
+ul.img-list {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-ul li {
-  display: inline-block;
-  position: relative;
-}
 ul.img-list li {
   margin:4px;
   float:left;
+  display: inline-block;
+  position: relative;
 }
 span.text-content span {
   display: table-cell;
@@ -77,3 +74,34 @@ span.text-content {
   -o-transition: opacity 500ms;
   transition: opacity 500ms;
 }
+.left {
+  width:192px;
+  float:left;
+}
+.right {
+  width:192px;
+  float:right;
+}
+.skills {
+  font-size:16px;
+  width:400px;
+  margin:48px auto;
+  text-align:left;
+}
+.skills p {
+  padding-left:16px;
+  padding-bottom:8px;
+  margin:0;
+  font-weight:bold;
+}
+.skills ul {
+  background-color:#f9f9f9;
+  margin:0;
+  padding:8px;
+  list-style-type: none;
+}
+.skills ul li {
+}
+.skills ul li:after { content: ","; }
+.skills ul li:last-child:after { content: ""; }
+
