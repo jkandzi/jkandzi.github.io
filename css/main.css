@@ -75,16 +75,16 @@ span.text-content {
   transition: opacity 500ms;
 }
 .left {
-  width:192px;
+  width:200px;
   float:left;
+  padding-left:150px;
 }
 .right {
-  width:192px;
+  width:245px;
   float:right;
 }
 .skills {
   font-size:16px;
-  width:400px;
   margin:48px auto;
   text-align:left;
 }
@@ -102,4 +102,17 @@ span.text-content {
 }
 .skills ul li:after { content: ","; }
 .skills ul li:last-child:after { content: ""; }
-
+a.button {
+  clear:left; 
+  width: 300px;
+  display: block;
+  margin: 10px auto;
+  padding: 12px 0;
+  border: 1px solid #E62427;
+  border-radius: 32px;
+  -moz-border-radius: 32px;
+  -webkit-border-radius: 32px;
+  text-align: center;
+  background-color:#fff;
+  text-decoration:none;
+}
