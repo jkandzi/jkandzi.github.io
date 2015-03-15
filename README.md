@@ -1,3 +1,3 @@
-justuskandzi.github.io
-======================
+jkandzi.github.io
+=================
 www.justuskandzi.com
