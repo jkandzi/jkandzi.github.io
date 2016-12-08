@@ -1,0 +1,16 @@
+name: Justus Kandzi
+description: Builds iOS apps
+meta_description: "Your New Jekyll Site, Blogging about stuffs"
+
+markdown: kramdown
+highlighter: pygments
+logo: false
+paginate: 15
+baseurl: /
+domain_name: 'http://www.justuskandzi.com'
+google_analytics: 'UA-35136602-7'
+gems: [jekyll-paginate]
+
+# Details for the RSS feed generator
+url:            'http://www.justuskandzi.com'
+author:         'Justus Kandzi'
