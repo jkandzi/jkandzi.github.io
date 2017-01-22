@@ -61,14 +61,9 @@ post_class: post-template
             <section>
                 If you have questions, comments, or want to discuss this idea get in touch on Twitter <a href="https://www.twitter.com/jkandzi">@jkandzi</a> or leave a comment below.
             </section>
-
-            <!-- Disqus comments -->
-            {% if page.disqus %}
+            {% if page.comments %}
                 {% include disqus.html %}
             {% endif %}
-
         </footer>
-
     </article>
-
 </main>

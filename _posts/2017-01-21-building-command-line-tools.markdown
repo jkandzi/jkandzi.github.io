@@ -3,6 +3,7 @@ layout: post
 title:  "Building command line tools with swift."
 date:   2017-01-21 10:28:00
 categories: Xcode
+comments: true
 ---
 
 Building basic command line tools with swift is pretty straight forward.
